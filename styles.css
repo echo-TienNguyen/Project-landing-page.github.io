@@ -57,7 +57,7 @@ nav .nav-items {
 }
 
 .hero-content {
-    width: 20vw;    
+    width: 25vw;    
 }
 
 .hero-content h1 {
@@ -87,6 +87,13 @@ nav .nav-items {
 
 
 /* hero image */
+/* div.image-placeholder {
+    display: flex;
+    justify-content: flex-end;
+    width: 40vw;
+    height: vw;
+} */
+
 .image-placeholder img {
     display: flex;
 }
@@ -102,7 +109,7 @@ nav .nav-items {
 /* second part css */
 .second-part {
     width: 100%;
-    height: 25vw;
+    height: 30vw;
 }
 
 .second-part p {
@@ -137,4 +144,20 @@ nav .nav-items {
 div div .charater-info {
     font-size: 0.8vw;
     font-weight: 300;
+}
+
+.third-part {
+    margin: 0 15vw;
+    padding: 3vw;
+}
+
+.third-part #haku-quotes {
+    font-style: italic;
+    font-size: 2.2vw;
+}
+
+.third-part #haku-name {
+    text-align: right;
+    font-size: 1.5vw;
+
 }
